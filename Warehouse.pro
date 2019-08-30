@@ -29,16 +29,19 @@ SOURCES += \
     warehouse.cpp \
     mainwindow.cpp \
     good.cpp \
-    database.cpp
+    database.cpp \
+    login.cpp
 
 HEADERS += \
     warehouse.h \
     mainwindow.h \
     good.h \
-    database.h
+    database.h \
+    login.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    login.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
